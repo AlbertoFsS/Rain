@@ -1,0 +1,122 @@
+body{
+    background-color: rgba(206, 201, 201, 0.948);
+    
+}
+#primer{
+
+    animation-name: my-animation;
+    animation-duration: .65s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+    width: 600px;
+    height: 100px;
+    border-radius: 90px;
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#segund{
+
+    animation-name: my-animation;
+    animation-duration: .65s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+
+   width: 600px;
+    height: 100px;
+    border-radius: 90px;
+    position:absolute;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#inter{
+   animation-name: bolita;
+   animation-duration: alternate;
+   animation-direction: linear;
+   animation-iteration-count: infinite;
+
+   width: 20px;
+   height: 20px;
+   border-radius: 80px;
+   left: auto;
+   position: absolute;
+}
+#inter2{
+    animation-name: bolita;
+    animation-duration: 2.5s;
+    animation-direction: linear;
+    animation-iteration-count: infinite;
+ 
+    width: 20px;
+    height: 20px;
+    border-radius: 80px;
+    left: 560px;
+    position: absolute;
+ }
+#inter3{
+    animation-name: bolita;
+    animation-duration: 2s;
+    animation-direction: linear;
+    animation-iteration-count: infinite;
+ 
+    width: 20px;
+    height: 20px;
+    border-radius: 80px;
+    left: 580px;
+    position: absolute;
+ }
+#inter4{
+    animation-name: bolita;
+    animation-duration: 3.25s;
+    animation-direction: linear;
+    animation-iteration-count: infinite;
+ 
+    width: 20px;
+    height: 20px;
+    border-radius: 80px;
+    left: 550px;
+    position: absolute;
+ }
+#inter5{
+    animation-name: bolita;
+    animation-duration: 3.70s;
+    animation-direction: linear;
+    animation-iteration-count: infinite;
+ 
+    width: 20px;
+    height: 20px;
+    border-radius: 80px;
+    left: 590px;
+    position: absolute;
+ }
+@keyframes my-animation {
+    from{
+        background-color: rgba(123, 147, 182, 0.632);
+        width: 300px;
+        top: 10px;
+    }
+    to{
+        width: 50px;
+        top: 100px;
+
+    }
+}
+@keyframes bolita {
+    from{
+        background-color: rgba(26, 156, 200, 0.719);
+        width: 10px;
+        top: 40px;
+    }
+    to{
+    
+      top: 1000px;
+    }
+    
+}
